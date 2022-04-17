@@ -1,0 +1,121 @@
+
+header img{
+    width: 8%;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 1.88rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+}
+
+nav ul li a:hover{
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: transparent;
+    background-clip: text;
+}
+
+header{
+    width: 100%;
+    min-height: 100hv;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+section{
+    background-color: hsl(0, 0%, 98%) ;
+    display: flex;
+    
+    align-items: center;
+    justify-content: flex-start;
+}
+section svg{
+    margin-left: 0;
+}
+section .text{
+    padding: 3.13rem;
+    margin-left: 6.25rem;
+    width: 43.75rem;
+
+    
+}
+
+.titre{
+    color: hsl(233, 26%, 24%);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3.13rem;
+}
+
+section .text p{
+    color: hsl(233, 8%, 62%);
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.13rem;
+}
+/* .inscription{
+    width: 87.5rem;
+    height: 43.75rem;
+}
+.inscription img{
+    object-fit: fill;
+}*/
+
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+   }
+   
+   button:hover {
+    background-color: #2EE59D;
+    background: -webkit-linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+   }
+   
+   button:active {
+    transform: translateY(-1px);
+   }
+
+   .connection{
+       font-family: 'Public Sans', sans-serif;
+       color: hsl(233, 26%, 24%);
+       float: right;
+   }
+
+   .connection:hover{
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: transparent;
+    background-clip: text;
+   }
