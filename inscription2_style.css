@@ -14,6 +14,7 @@ body{
     align-items: center;
 }
 
+
 @keyframes background{
     0%{
         background-position: left;
@@ -36,7 +37,7 @@ body{
 
 @keyframes slide{
     0%{
-        transform: translateY(-1000px);
+        transform: translateY(-500px);
     }
     100%{
         transform: skew(0deg);
@@ -112,3 +113,5 @@ button {
       form div{
           margin: 0.5rem;
       }
+
+      
