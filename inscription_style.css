@@ -5,7 +5,7 @@
 
 body{
     min-height: 100vh;
-    background-image: linear-gradient( #a0ffa0,	#c4ffc4, 	#dcffdb,  #f0feff, #c2f5ff, #a7e7fe);
+    background-image: linear-gradient(to bottom right, #86c5d8,	#add8e6, 	#afdceb,  #cae9f5, #f0f8ff);
     background-repeat: no-repeat;
     background-size: 400%;
     animation: background 7s infinite alternate;
@@ -13,7 +13,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 
 @keyframes background{
     0%{
@@ -30,9 +29,10 @@ body{
     flex-direction: column;
     background-color: hsl(0, 0%, 98%);
     justify-content: center;
-    height: 43.75rem;
+    height: 50.75rem;
     width: 1500px;
     animation: slide 1s ease-in-out;
+    padding: 20px;
 }
 
 @keyframes slide{
@@ -70,7 +70,7 @@ button {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    margin: 0.6rem;
+    margin: 1rem;
    }
    
    button:hover {
@@ -91,7 +91,7 @@ button {
        border: none;
        border-bottom: 2px solid #2EE59D;
         width: 37.5rem;
-        margin: 3.5rem;
+        margin: 1.25rem;
         height: 3.13rem;
         background-color: hsl(0, 0%, 98%);
    }
@@ -110,4 +110,6 @@ button {
           margin-right: 3.13rem;
       }
 
-      
+      form div{
+          margin: 0.5rem;
+      }

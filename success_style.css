@@ -1,19 +1,13 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 
 body{
-    min-height: 100vh;
-    background-image: linear-gradient( #a0ffa0,	#c4ffc4, 	#dcffdb,  #f0feff, #c2f5ff, #a7e7fe);
-    background-repeat: no-repeat;
-    background-size: 400%;
+    background-image: linear-gradient(#77dd66, #8fe381, #a7e99c, #bfeeb7, #d7f4d2);
     animation: background 7s infinite alternate;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
-
 
 @keyframes background{
     0%{
@@ -25,14 +19,18 @@ body{
 }
 
 .card{
-    border-radius: 2%;
+    background-color: hsl(0, 0%, 98%);
     display: flex;
     flex-direction: column;
-    background-color: hsl(0, 0%, 98%);
     justify-content: center;
-    height: 43.75rem;
-    width: 1500px;
+    align-items: center;
+    width: 1000px;
+    max-height: 700px;
+    padding: 50px;
+    border-radius: 2%;
+
     animation: slide 1s ease-in-out;
+    
 }
 
 @keyframes slide{
@@ -44,16 +42,21 @@ body{
     }
 }
 
-form{
-    display: flex;
-    margin-bottom: 12rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-top: 4rem;
+h1{
+    font-family: 'Public Sans', sans-serif;
+    color: hsl(233, 26%, 24%);
 }
-.card img{
-    border-radius: 5%;
-    max-width: 31.25rem;
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+p{
+    font-family: 'Public Sans', sans-serif;
+    color: hsl(233, 8%, 62%);
+    margin: 10px;
 }
 
 button {
@@ -86,28 +89,3 @@ button {
    button:active {
     transform: translateY(-1px);
    }
-
-   input{
-       border: none;
-       border-bottom: 2px solid #2EE59D;
-        width: 37.5rem;
-        margin: 3.5rem;
-        height: 3.13rem;
-        background-color: hsl(0, 0%, 98%);
-   }
-
-   .card h1{
-       margin-top: 12.5rem;
-       align-self: center;
-       color: hsl(233, 26%, 24%);
-        font-family: 'Public Sans', sans-serif;
-        font-weight: bold;
-        font-size: 3.13rem;
-      }
-
-      form img{
-          margin-left: 5.63rem;
-          margin-right: 3.13rem;
-      }
-
-      

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo-aso-sans.png">
+    <link rel="stylesheet" href="about_us_style.css">
+    <title>ASO | à propos</title>
+</head>
+<body>
+    <section class="container1">
+
+        <header>
+            <!--<div class="logo"><img src="images/logo-aso-sans-removebg-preview.png" alt=""></div>-->
+            <div class="logo">ASO</div>
+            <div class="toggle"><img src="images/menu.png" alt=""></div>
+        </header>
+         <video src="images/hiking_video.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h1>Qui sommes nous ?</h1>
+            <h2>L'Association Sportive d'Oran</h2>
+            <p>Nous mettons à votre disposition une équipe d'experts composé de plus de 20 coachs sportifs, 10 complexes sportifs pret de chez vous, ainsi que le meilleur équipement du marché. 
+                Rejoignez +200 adhérents dès maintenant!
+            </p>
+
+        </div>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about_us.html">A propos</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const container1 = document.querySelector('.container1');
+
+        menuToggle.addEventListener('click', function(){
+            container1.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
