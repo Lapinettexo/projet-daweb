@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+}
+
+
 header img{
     width: 6%;
     cursor: pointer;
@@ -59,6 +64,7 @@ section .text{
 }
 
 .titre{
+    margin: 10px;
     color: hsl(233, 26%, 24%);
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
@@ -66,6 +72,7 @@ section .text{
 }
 
 section .text p{
+    margin: 10px;
     color: hsl(233, 8%, 62%);
     font-family: 'Public Sans', sans-serif;
     font-weight: 300;
@@ -101,3 +108,56 @@ button {
    button:active {
     transform: translateY(-1px);
    }
+
+footer{
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.socials .element{
+    margin: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.socials .element:hover{
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
+.vertical{
+    border-left: 2px solid white;
+    height: 100px;
+}
+
+footer .text{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    margin-left: 0.5rem;
+    padding: 2rem;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+
+footer .rights{
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    margin: 1rem;
+}
