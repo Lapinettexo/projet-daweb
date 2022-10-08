@@ -29,10 +29,11 @@ body{
     flex-direction: column;
     background-color: hsl(0, 0%, 98%);
     justify-content: center;
-    height: 50.75rem;
-    width: 1500px;
+    height: auto;
+    width: 87%;
     animation: slide 1s ease-in-out;
-    padding: 20px;
+    padding: 1%;
+    margin: 10%;
 }
 
 @keyframes slide{
@@ -46,10 +47,10 @@ body{
 
 form{
     display: flex;
-    margin-bottom: 12rem;
-    margin-left: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 2rem;
     margin-right: 6rem;
-    margin-top: 4rem;
+    margin-top: 0;
 }
 .card img{
     border-radius: 5%;
@@ -97,7 +98,7 @@ button {
    }
 
    .card h1{
-       margin-top: 12.5rem;
+       margin-top: 4rem;
        align-self: center;
        color: hsl(233, 26%, 24%);
         font-family: 'Public Sans', sans-serif;
@@ -107,7 +108,7 @@ button {
 
       form img{
           margin-left: 5.63rem;
-          margin-right: 3.13rem;
+          margin-right: 2rem;
       }
 
       form div{

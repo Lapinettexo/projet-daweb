@@ -31,7 +31,7 @@ body{
     background-color: hsl(0, 0%, 98%);
     justify-content: center;
     height: 43.75rem;
-    width: 1500px;
+    width: 60%;
     animation: slide 1s ease-in-out;
 }
 
@@ -47,13 +47,13 @@ body{
 form{
     display: flex;
     margin-bottom: 12rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-right: 6rem;
     margin-top: 4rem;
 }
 .card img{
     border-radius: 5%;
-    max-width: 31.25rem;
+    width: 45%;
 }
 
 button {
@@ -90,7 +90,7 @@ button {
    input{
        border: none;
        border-bottom: 2px solid #2EE59D;
-        width: 37.5rem;
+        width: 100%;
         margin: 3.5rem;
         height: 3.13rem;
         background-color: hsl(0, 0%, 98%);
@@ -106,8 +106,8 @@ button {
       }
 
       form img{
-          margin-left: 5.63rem;
-          margin-right: 3.13rem;
+          margin-left: 20%;
+          margin-right: 2%;
       }
 
       
