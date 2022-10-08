@@ -7,7 +7,7 @@ body{
 }
 
 .wave{
-    width:100%;
+    width:120%;
 
     position: absolute;
     top: 610px;
@@ -22,8 +22,8 @@ body{
 }
 .card{
     position: absolute;
-    min-height: 800px;
-    min-width: 1000px;
+    min-height: 150%;
+    min-width: 50%;
     background-color: white;
     border-radius: 2%;
     display: flex;
